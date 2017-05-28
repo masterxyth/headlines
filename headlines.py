@@ -26,7 +26,8 @@ DEFAULTS = {'publication':'bbc',
 RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
              'cnn': 'http://rss.cnn.com/rss/edition.rss',
              'fox': 'http://feeds.foxnews.com/foxnews/latest',
-             'iol': 'http://www.iol.co.za/cmlink/1.640'}
+             'iol': 'http://www.iol.co.za/cmlink/1.640',
+             'cric': 'http://www.espncricinfo.com/rss/content/feeds/news/7.xml'}
 
 # Global APIs
 WEATHER_URL = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=754e794a991cfb7d6c324f4c33998563'
