@@ -50,7 +50,7 @@ def home():
 
     # save cookies and return template
 
-    response = make_response(render_template('home.html', articles=articles, weather=weather, currency_from=currency_from, currency_to=currency_to, rate=rate, currencies=sorted(currencies)))
+    response = make_response(render_template('home.html', articles=articles, weather=weather, currency_from=currency_from, currency_to=currency_to, rate=rate, currencies=sorted(currencies), pubs= RSS_FEEDS.keys()))
     expires = datetime.datetime.now()+datetime.timedelta(days=365)
     response.set_cookie('publication', publication, expires=expires)
     response.set_cookie('city', city, expires=expires)
